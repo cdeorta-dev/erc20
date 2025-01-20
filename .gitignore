@@ -1,0 +1,6 @@
+*.txt
+*.pdf
+*.doc
+.env
+/node_modules
+/build
