@@ -12,11 +12,11 @@ contract("ERC20",accounts =>{
     context("Constructor", async() =>{
         it("Verifico Nombre verdadero", async()=>{
             const _name = await erc20Inst.name();
-            expect(_name).to.equal("EducationIT");
+            expect(_name).to.equal("MyToken");
         });
         it("Verifico symbol verdadero", async()=>{
             const _symbol = await erc20Inst.symbol();
-            expect(_symbol).to.equal("EDIT");
+            expect(_symbol).to.equal("MKT");
         });
         it("Verifico que tenga 6  decimales", async()=>{
             const _decimals = await erc20Inst.decimals();
